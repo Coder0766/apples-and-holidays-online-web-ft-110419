@@ -71,7 +71,7 @@ end
 
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
-holiday_hash.each{|seasons| seasons.each_pair}
+holiday_hash.each[:summer]{|season| season.each_pair}
   # include the string "BBQ"
 
 
