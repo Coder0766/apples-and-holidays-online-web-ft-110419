@@ -65,7 +65,7 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-  holiday_hash[:season].collect {|key, value|}
+  holiday_hash[:season].each_pair {|key, value|}
   binding.pry
 end
 
