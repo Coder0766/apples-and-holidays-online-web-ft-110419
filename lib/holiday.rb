@@ -54,6 +54,7 @@ def all_winter_holiday_supplies(holiday_hash)
   holiday_hash[:winter][:christmas] && [:new_years] =>  "supplies"
   # binding.pry
 end
+end
 
 def all_supplies_in_holidays(holiday_hash)
   # iterate through holiday_hash and print items such that your readout resembles:
