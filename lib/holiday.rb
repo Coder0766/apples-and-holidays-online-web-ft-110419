@@ -77,7 +77,6 @@ holiday_and_supplies.each |holiday, supplies|}
   if supplies.include?("BBQ")
     bbq_holiday << holiday
   binding.pry
+  end
   # include the string "BBQ"
-
-
 end
