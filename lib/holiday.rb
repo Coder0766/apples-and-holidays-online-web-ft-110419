@@ -72,7 +72,7 @@ end
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
 holiday_hash.each {|season, holiday_and_supplies|}
-holiday_and_supplies.each {|holiday, supplies| holiday.sort}
+holiday_and_supplies.each {|holiday, supplies|}
   binding.pry
   # include the string "BBQ"
 
