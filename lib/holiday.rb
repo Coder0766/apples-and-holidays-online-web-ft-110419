@@ -67,7 +67,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   # holiday_hash.each {|holiday_hash|}
   holiday_hash.each_line do |line|
-  # binding.pry
+  binding.pry
   end
 end
 
