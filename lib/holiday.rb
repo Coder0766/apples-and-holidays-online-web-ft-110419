@@ -65,7 +65,7 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-  holiday_hash.each{|holiday_hash| print holiday_hash}
+  holiday_hash.each{|holiday_hash| puts holiday_hash}
   # binding.pry
 end
 
